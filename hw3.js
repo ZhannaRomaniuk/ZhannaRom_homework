@@ -1,6 +1,6 @@
 pow(2,10);
 function pow(x,y) {
-
+if (Number.isInteger(x), Number.isInteger(y)) {
     if (y===0) {
         console.log(1);}
     if (y===1) {
@@ -13,26 +13,7 @@ function pow(x,y) {
 console.log(a)
     }
 }
-
-/*
-let x = 2;
-let y =10;
-
-for (i = 0; i <=y; i++) {
-if (i === 0) {
-    console.log(1);}
-if (i && i === 1) {
-    console.log(x);}
-if (i && i === 2) {
-    var a = x*x;
-    console.log(a);}
-
-else { 
-        pow (x,y);}
-
-    function pow (x,y) {
-    let b = a*x;
-    console.log(b);
-    a = b;}
+else {
+    console.log('not a number')
 }
-*/
+}
